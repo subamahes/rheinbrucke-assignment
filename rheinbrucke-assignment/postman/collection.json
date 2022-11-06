@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "386774cb-fe8c-43cf-84e0-e48bc47b85d1",
+		"name": "rheinbrucke",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "finding-percentage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/finding-percentage",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"finding-percentage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "max-province",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/max-province",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"max-province"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
